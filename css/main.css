@@ -78,7 +78,7 @@ h1, h2, li a {
     font-family: "celtichand", cambria, garamond, georgia, serif;
 }
 
-p, button {
+p, .button {
     font-family: "judson", cambria, garamond, georgia, serif;
 }
 
@@ -121,25 +121,37 @@ a:active {
     max-width: 342px;
 }
 
-.button {
+.resevation {
     margin: 10px 0 10px 0;
     text-align: center;
 }
 
-button {
+.button {
+    display: block;
     background-image: url(../img/button.png);
-    width: 185px;
-    height: 67px;
+    width: 213px;
+    height: 50px;
     color: #EEE8DE;
     font-family: "celtichand", cambria, garamond, georgia, serif;
     font-size: 1.25em;
     text-shadow: 2px 2px #4c3f37;
+    text-align: center;
+    padding-top: 25px;
 }
 
-button:hover {
+.button:hover {
     background-image:url(../img/button_hover.png);
-    width: 185px;
-    height: 67px;
+    width: 213px;
+    height: 50px;
+}
+
+.reservation a {
+    color: white;
+}
+
+.reservation a:hover {
+    text-decoration: none;
+    padding-top: 30px;
 }
 
 .hidden {
@@ -198,7 +210,7 @@ button:hover {
         margin-top: 10px;
     }
     
-    .samplecontent, .photos {
+    .promotions, .photos {
         float: right;
         width: 63%;
         margin-top: 10px;
