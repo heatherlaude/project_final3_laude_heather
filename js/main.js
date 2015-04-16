@@ -7,6 +7,6 @@ $(document).ready( function() {
     $('.bxslider').bxSlider();
 
 //mixitup
-    $('#Container').mixItUp();
+    $('#mixitup').mixItUp();
 
 });
