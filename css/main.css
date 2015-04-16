@@ -201,6 +201,11 @@ footer p {
     margin: auto;
 }
 
+footer a {
+    color: #f19b50;
+    text-decoration: none;
+}
+
 /* Social Icons ---------------- */
 
     .social_icons {
