@@ -109,9 +109,18 @@ a:active {
     width: 100%;
 }
 
-.promotions img, figure img, .reservation a {
+.promotions img, .reservation a {
     width: 100%;
     margin: 5px 0 5px 0;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    width: 80%;
+    padding: 10px 0px 10px 0px;
 }
 
 .colors {
