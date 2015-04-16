@@ -36,6 +36,8 @@
     margin: auto;
     width: 80%;
     background-color: white;
+    margin-bottom: 20px;
+    padding: 10px 0px 10px 0px;
 }
 
 header {
@@ -73,7 +75,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #601c05;
+    background-color: #f19b50;
     -webkit-transition: background-color 0.75s;
     -moz-transition: background-color 0.75s;
     -o-transition: background-color 0.75s;
@@ -101,32 +103,13 @@ h2, p, figcaption {
     color: #42240B;
 }
 
-/*a:link {
-    color: #f19b50;
-    text-decoration: none;
-    padding: 0px 7px 0px 7px;
-}
-
-a:visited {
-    color: #f19b50;
-}
-
-a:hover {
-    color: white;
-}
-
-a:active {
-    color: #601c05;
-    text-decoration: none;
-}*/
-
 .logo img {
     width: 100%;
 }
 
 .promotions img, .reservation a {
     width: 100%;
-    margin: 5px 0 5px 0;
+    padding: 5px 0 5px 0;
 }
 
 figure {
@@ -138,9 +121,18 @@ figure img {
     padding: 10px 0px 10px 0px;
 }
 
-.resevation {
-    margin: 10px 0 10px 0;
-    text-align: center;
+.promotions {
+    background-color: #BCA78E;
+}
+
+.reservation {
+    padding: 5%;
+    background-color: #D0C1AE;
+}
+
+.awards {
+    background-color: #E4DBCE;
+    margin-bottom:-10px;
 }
 
 .button {
@@ -220,6 +212,7 @@ figure img {
     .promotions {
         float: right;
         width: 55%;
+        height: 100%;
     }
 
     section {
@@ -228,8 +221,14 @@ figure img {
 
     .slider {
         margin: auto;
-        margin-top: 20px;
         width: 75%;
+    }
+    
+    .slider_container {
+        width: 100%;
+        background-color: #eee8de;
+        padding: 25px 0px 1px 0px;
+        margin-bottom: 20px;
     }
 
 }
