@@ -1,0 +1,220 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: 'judson';
+    src: url('../fonts/judson/judson_regular.eot');
+    src:url('../fonts/judson/judson_regular.ttf') format('truetype'), url('../fonts/judson/judson_regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'judson_bold';
+    src: url('../fonts/judson/judson_bold.eot');
+    src:url('../fonts/judson/judson_bold.ttf') format('truetype'), url('../fonts/judson/judson_bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'judson_italic';
+    src: url('../fonts/judson/judson_italic.eot');
+    src:url('../fonts/judson/judson_italic.ttf') format('truetype'), url('../fonts/judson/judson_italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'celtichand';
+    src: url('../fonts/celtichand/celtichand.eot');
+    src:url('../fonts/celtichand/celtichand.ttf') format('truetype'), url('../fonts/celtichand/celtichand.woff') format('woff');
+}
+
+/* End Fonts */
+
+body {
+    background-image: url("../img/brownbricks.jpg");
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    background-color: #eee8de;
+}
+
+header {
+    background-color: white;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 10px;
+    width: 80%;
+}
+
+.logo, nav, section {
+    padding: 5%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: auto;
+}
+
+nav ul li {
+    display: inline;
+    padding: 7px;
+    font-size: 1em;
+    max-width: 225px;
+}
+
+h1 {
+    color: #601c05;
+    font-size: 1.3em;
+}
+
+h2 {
+    font-size: 1.1em;
+    padding-top: .5em;
+}
+
+h1, h2, li a {
+    font-family: "celtichand", cambria, garamond, georgia, serif;
+}
+
+p, button {
+    font-family: "judson", cambria, garamond, georgia, serif;
+}
+
+h2, p {
+    color: #4c3f37;
+}
+
+a:link {
+    color: #f19b50;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #C17B40;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #f19b50;
+}
+
+a:active {
+    color: #601c05;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.photos img {
+    width: 100%;
+    margin: 5px 0 5px 0;
+}
+
+.colors {
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin: auto;
+    max-width: 342px;
+}
+
+.button {
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+button {
+    background-image: url(../img/button.png);
+    width: 185px;
+    height: 67px;
+    color: #EEE8DE;
+    font-family: "celtichand", cambria, garamond, georgia, serif;
+    font-size: 1.25em;
+    text-shadow: 2px 2px #4c3f37;
+}
+
+button:hover {
+    background-image:url(../img/button_hover.png);
+    width: 185px;
+    height: 67px;
+}
+
+.hidden {
+    display: none;
+}
+
+/*Break Point 330px */
+
+@media (min-width: 330px) {
+    nav {
+        font-size: 1.3em;
+    }
+}
+
+/*Break Point 683px */
+
+@media (min-width: 683px) {
+    .logo {
+        width: 50%;
+        float: left;
+    }
+
+    .logo, nav {
+        padding: 1%;
+    }
+    
+    nav {
+        float: right;
+    }
+    
+    section {
+        clear: both;
+    }
+    
+    .colors {
+        max-width: 555px;
+    }
+}
+
+/*Break Point 750px */
+
+@media (min-width: 750px) {
+    .container, header {
+        overflow: hidden;
+        max-width: 975px;
+        padding-right: 20px;
+    }
+    
+    nav ul li {
+        font-size: 1.1em;
+    }
+    
+    aside {
+        float: left;
+        width: 35%;
+        margin-top: 10px;
+    }
+    
+    .samplecontent, .photos {
+        float: right;
+        width: 63%;
+        margin-top: 10px;
+    }
+    
+    .interior {
+        width: 49%;
+        float: left;
+    }
+    
+    .painting {
+        width: 49%;
+        float: right;
+    }
+}
