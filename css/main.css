@@ -182,18 +182,16 @@ figure img {
 /*Break Point 683px */
 
 @media (min-width: 683px) {
+
     .logo {
-        width: 50%;
-        float: left;
+        width: 75%;
+        margin: auto;
     }
 
     .logo, nav {
         padding: 1%;
     }
-    
-    nav {
-        float: right;
-    }
+
 }
 
 /*Break Point 750px */
