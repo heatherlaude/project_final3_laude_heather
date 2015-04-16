@@ -8,4 +8,7 @@ $(document).ready( function() {
         auto: true
     });
 
+//mixitup
+    $('#mixitup').mixItUp();
+
 });
