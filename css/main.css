@@ -123,13 +123,6 @@ figure img {
     padding: 10px 0px 10px 0px;
 }
 
-.colors {
-    text-align: center;
-    padding: 10px 0 10px 0;
-    margin: auto;
-    max-width: 342px;
-}
-
 .resevation {
     margin: 10px 0 10px 0;
     text-align: center;
@@ -203,20 +196,26 @@ figure img {
         overflow: hidden;
         max-width: 975px;
     }
-    
+
     nav ul li {
         font-size: 1.1em;
     }
-    
+
     aside {
         float: left;
         width: 35%;
     }
-    
-    .promotions, .awards {
+
+    .promotions {
         float: right;
         width: 55%;
-        margin-top: 10px;
     }
-    
+
+    section {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .slider {
+        margin-top: 20px;
+    }
 }
