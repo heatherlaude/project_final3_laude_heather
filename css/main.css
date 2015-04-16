@@ -32,10 +32,6 @@
 
 /* End Fonts */
 
-body {
-    background-image: url("../img/brownbricks.jpg");
-}
-
 .container {
     margin: auto;
     width: 80%;
