@@ -270,8 +270,8 @@ footer p {
     
 }
 
-.options .button {
-    float: left;
+.category-4, .category-5 {
+    height: 220px;
 }
 
 /*Break Point 330px */
@@ -348,6 +348,7 @@ footer p {
 
     footer {
         clear: both;
+        max-width: 850px;
     }
     
     footer p {
