@@ -48,10 +48,6 @@ header {
     width: 80%;
 }
 
-.logo {
-    padding: 10%;
-}
-
 section {
     padding: 5%;
 }
@@ -113,6 +109,14 @@ p, figcaption {
 }
 
 .logo img {
+    width: 90%;
+    padding: 5%;
+}
+
+.logo {
+    background-image: url("../img/menubanner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
 }
 
@@ -144,7 +148,7 @@ figure img {
     margin-bottom:-10px;
 }
 
-.button {
+.button, .button_menu {
     display: block;
     background-image: url(../img/button.png);
     background-repeat: no-repeat;
@@ -160,7 +164,7 @@ figure img {
     margin-top: 10px;
 }
 
-.button:hover {
+.button:hover, .button_menu:hover {
     background-image:url(../img/button_hover.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -176,6 +180,15 @@ figure img {
 
 .hidden {
     display: none;
+}
+
+.awards figcaption, .awards h2 {
+    text-align: center;
+}
+
+.awards figure {
+    max-width: 200px;
+    margin: auto;
 }
 
 footer {
@@ -278,6 +291,7 @@ footer p {
     font-weight: bold;
     
 }
+/* End Mix It Up Styles  ---------------- */
 
 .category-4, .category-5 {
     height: 240px;
@@ -297,12 +311,10 @@ footer p {
 @media (min-width: 683px) {
 
     .logo {
-        width: 75%;
+        width: 100%;
         margin: auto;
-        max-width: 600px;
-        padding: 3%;
     }
-    
+
     .mix {
     width: calc(100%/3);
     vertical-align: top;
@@ -312,7 +324,7 @@ footer p {
         margin-left: 140px;
     }
 
-    .button, .button:hover {
+    .button_menu, .button_menu:hover {
         width: calc(100%/4);
         float: left;
         margin: 0 5% 0 5%;
@@ -379,7 +391,7 @@ footer p {
     .options {
         margin-left: 70px;
     }
-    .button, .button:hover {
+    .button_menu, .button_menu:hover {
         width: calc(100%/5);
     }
 }
