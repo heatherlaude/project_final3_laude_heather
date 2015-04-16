@@ -255,6 +255,13 @@ footer p {
     width: 70%;
 }
 
+.mix:hover {
+    background-color: #eee8de;
+    -webkit-transition: background-image 0.75s fade;
+    -moz-transition: background-image 0.75s fade;
+    -o-transition: background-image 0.75s fade;
+}
+
 .mix h2 {
     margin-top: -10px;
     font-size: 1em;
