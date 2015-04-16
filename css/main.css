@@ -223,9 +223,21 @@ footer p {
     text-align: center;
 }
 
-footer a {
+footer a, .contact_findus a {
     color: #f19b50;
     text-decoration: none;
+}
+
+.contact_findus a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+.top-margin {
+    margin-top: 30px;
+}
+
+.contact_findus a {
+    margin-top: 10px;
 }
 
 /* Social Icons ---------------- */
@@ -409,6 +421,20 @@ footer a {
     }
     .button_menu, .button_menu:hover {
         width: calc(100%/5);
+    }
+
+    .map {
+        float: left;
+        width: 60%;
+        padding: 0;
+        margin: 0 0 0 10px;
+    }
+
+    .contact_findus {
+        float: right;
+        width: 30%;
+        padding 0;
+        margin: 10px 10px 0 0;
     }
 }
 
