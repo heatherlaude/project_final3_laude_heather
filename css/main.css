@@ -194,14 +194,6 @@ figure img {
     nav {
         float: right;
     }
-    
-    section {
-        clear: both;
-    }
-    
-    .colors {
-        max-width: 555px;
-    }
 }
 
 /*Break Point 750px */
@@ -210,7 +202,6 @@ figure img {
     .container, header {
         overflow: hidden;
         max-width: 975px;
-        padding-right: 20px;
     }
     
     nav ul li {
@@ -220,22 +211,12 @@ figure img {
     aside {
         float: left;
         width: 35%;
+    }
+    
+    .promotions, .awards {
+        float: right;
+        width: 55%;
         margin-top: 10px;
     }
     
-    .promotions, .photos {
-        float: right;
-        width: 63%;
-        margin-top: 10px;
-    }
-    
-    .interior {
-        width: 49%;
-        float: left;
-    }
-    
-    .painting {
-        width: 49%;
-        float: right;
-    }
 }
