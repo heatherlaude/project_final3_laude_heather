@@ -50,6 +50,10 @@ header {
     padding: 5%;
 }
 
+nav {
+    background-color: #42240B;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -62,6 +66,10 @@ nav ul li {
     padding: 7px;
     font-size: 1em;
     max-width: 225px;
+}
+
+nav ul li:hover {
+    background-color: #601c05;
 }
 
 h1 {
@@ -92,12 +100,11 @@ a:link {
 }
 
 a:visited {
-    color: #C17B40;
+    color: #f19b50;
 }
 
 a:hover {
-    text-decoration: underline;
-    color: #f19b50;
+    color: white;
 }
 
 a:active {
