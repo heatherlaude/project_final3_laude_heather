@@ -35,11 +35,11 @@
 .container {
     margin: auto;
     width: 80%;
-    background-color: #eee8de;
+    background-color: white;
 }
 
 header {
-    background-color: white;
+    background-color: #eee8de;;
     overflow: hidden;
     margin: auto;
     margin-top: 10px;
