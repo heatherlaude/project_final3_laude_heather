@@ -131,7 +131,7 @@ figure img {
 }
 
 .reservation {
-    padding: 0 5% 5% 5%;
+    padding: 5%;
     background-color: #D0C1AE;
 }
 
@@ -173,6 +173,53 @@ figure img {
 .hidden {
     display: none;
 }
+
+footer {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.social {
+    margin: auto;
+    width: 50%;
+    background-color: red;
+}
+
+/* Social Icons ---------------- */
+
+    .social_icons {
+        background-color: #f19b50;
+        width: 30%;
+        padding-top: 10%;
+        margin: 0 10% 0 10%;
+        float: left;
+        max-width: 50px;
+    }
+
+    .social_icons:hover {
+        background-color: #42240B;
+        -webkit-transition: background-color 0.75s;
+        -moz-transition: background-color 0.75s;
+        -o-transition: background-color 0.75s;
+    }
+
+    #facebook, #twitter {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    #facebook {
+        background-image: url(../img/facebook.png);
+    }
+
+    #twitter {
+        background-image: url(../img/twitter.png);
+    }
+
+/* End Social Icons ---------------- */
 
 /*Break Point 330px */
 
@@ -235,5 +282,17 @@ figure img {
 
     .promotions, .reservation, .awards {
         background-color: white;
+    }
+
+    .reservation {
+        padding: 0 5% 5% 5%;
+    }
+
+    footer {
+        clear: both;
+    }
+
+    .social_icons {
+        padding-top: 5%;
     }
 }
