@@ -235,6 +235,8 @@ footer p {
 
 /* End Social Icons ---------------- */
 
+/* Mix It Up Styles  ---------------- */
+
 #mixitup .mix {
     display: none;
 }
@@ -271,7 +273,7 @@ footer p {
 }
 
 .category-4, .category-5 {
-    height: 220px;
+    height: 240px;
 }
 
 /*Break Point 330px */
@@ -281,6 +283,7 @@ footer p {
         font-size: 1.3em;
     }
 }
+
 
 /*Break Point 683px */
 
@@ -296,6 +299,16 @@ footer p {
     .mix {
     width: calc(100%/3);
     vertical-align: top;
+    }
+
+    .options {
+        margin-left: 140px;
+    }
+
+    .button, .button:hover {
+        width: calc(100%/4);
+        float: left;
+        margin: 0 5% 0 5%;
     }
 }
 
@@ -354,6 +367,13 @@ footer p {
     footer p {
         display: inline;
         padding: 0 7px 0 7px;
+    }
+
+    .options {
+        margin-left: 70px;
+    }
+    .button, .button:hover {
+        width: calc(100%/5);
     }
 }
 
