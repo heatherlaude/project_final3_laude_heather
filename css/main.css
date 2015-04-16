@@ -81,6 +81,11 @@ nav a:hover {
     -o-transition: background-color 0.75s;
 }
 
+.slider_container {
+    background-color: #eee8de;
+    margin-top: -10px;
+}
+
 h1 {
     color: #601c05;
     font-size: 1.3em;
@@ -224,9 +229,11 @@ figure img {
     
     .slider_container {
         width: 100%;
-        background-color: #eee8de;
         padding: 25px 0px 1px 0px;
         margin-bottom: 20px;
     }
 
+    .promotions, .reservation, .awards {
+        background-color: white;
+    }
 }
