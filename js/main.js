@@ -6,4 +6,7 @@ $(document).ready( function() {
 //backstretch
     $('.bxslider').bxSlider();
 
+//mixitup
+    $('#Container').mixItUp();
+
 });
