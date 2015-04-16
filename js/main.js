@@ -1,6 +1,6 @@
 $(document).ready( function() {
 
 //backstretch
-    $.backstretch("../img/brownbricks.jpg");
+    $.backstretch("../img/brownbricks2.jpg");
 
 });
