@@ -148,6 +148,7 @@ figure img {
     text-shadow: 2px 2px #4c3f37;
     text-align: center;
     padding-top: 27px;
+    margin-top: 10px;
 }
 
 .button:hover {
@@ -161,9 +162,6 @@ figure img {
 .reservation a {
     color: white;
     text-decoration: none;
-}
-
-.reservation a:hover {
     padding-top: 27px;
 }
 
