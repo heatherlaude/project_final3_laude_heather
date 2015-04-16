@@ -235,6 +235,45 @@ footer p {
 
 /* End Social Icons ---------------- */
 
+#mixitup .mix {
+    display: none;
+}
+
+#mixitup {
+    text-align: center;
+}
+
+.mix {
+    display: inline-block;
+    vertical-align: center;
+    border: 3px solid #3f3E3E;
+    margin: 10px;
+    padding: 3%;
+    height: 150px;
+    width: 70%;
+}
+
+.mix h2 {
+    margin-top: -10px;
+    font-size: 1em;
+}
+
+.mix .describe {
+    text-align: left;
+    margin-top: 6%;
+}
+
+.mix .price {
+    text-align: center;
+    margin-top: 2%;
+    font-weight: bold;
+    
+}
+
+.options .button {
+    float: left;
+}
+
 /*Break Point 330px */
 
 @media (min-width: 330px) {
@@ -253,7 +292,11 @@ footer p {
         max-width: 600px;
         padding: 3%;
     }
-
+    
+    .mix {
+    width: calc(100%/3);
+    vertical-align: top;
+    }
 }
 
 /*Break Point 750px */
@@ -311,5 +354,12 @@ footer p {
         display: inline;
         padding: 0 7px 0 7px;
     }
+}
 
+/*Break Point 842px */
+
+@media (min-width: 842px) {
+    .mix {
+    width: calc(100%/5);
+    }
 }

@@ -32,16 +32,46 @@
 
         <div id="mixitup">
 
-            <div class="filter" data-filter="all">Show All</div>
-            <div class="filter" data-filter=".appetizers">Appetizers</div>
-            <div class="filter" data-filter=".entrees">Entrees</div>
-            <div class="filter" data-filter=".desserts">Desserts</div>
-            <div class="filter" data-filter=".beverages">Beverages</div>
+                <div class="options">
+                    <div class="filter button" data-filter="all">View All</div>
+                    <div class="filter button" data-filter=".category-1">Appetizers</div>
+                    <div class="filter button" data-filter=".category-2">Entrees</div>
+                    <div class="filter button" data-filter=".category-3">Desserts</div>
+                    <div class="filter button" data-filter=".category-4">Beverages</div>
+                </div>
 
-            <div class="mix appetizers"></div>
-            <div class="mix entrees"></div>
-            <div class="mix desserts"></div>
-            <div class="mix beverages"></div>
+                <div class="mix category-1" data-myorder="1">
+                    <h2>House Leaky Soup</h2>
+                    <p class="describe">Pairs well with a delicious Exlpoding Lemonade.</p>
+                    <p class="price">II Sickles</p>
+                </div>
+
+                <div class="mix category-1" data-myorder="1">
+                    <h2>Pea Soup</h2>
+                    <p class="describe">Gloriously green soup that will make other soups green with envy.</p>
+                    <p class="price">IV Sickles</p>
+                </div>
+
+                <div class="mix category-1" data-myorder="1">
+                    <h2>Pickled Eel</h2>
+                    <p class="describe">Sweet and salty eel bites - so good you won't want to share.</p>
+                    <p class="price">I Galleon</p>
+                </div>
+
+                <div class="mix category-2" data-myorder="1">
+                    <h2>Entrees</h2>
+                    <p>pot roast</p>
+                </div>
+
+                <div class="mix category-3" data-myorder="1">
+                    <h2>Desserts</h2>
+                    <p>pie</p>
+                </div>
+
+                <div class="mix category-4" data-myorder="1">
+                    <h2>Beverages</h2>
+                    <p>drink</p>
+                </div>
 
         </div>
 
@@ -68,6 +98,8 @@
     <script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
 
     <script src="js/jquery.backstretch.min.js"></script>
+
+    <script src="js/jquery.bxslider.min.js"></script>
 
     <script src="js/jquery.mixitup.js"></script>
 
