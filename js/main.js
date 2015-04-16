@@ -4,6 +4,8 @@ $(document).ready( function() {
     $.backstretch("img/brownbricks_sm.jpg");
 
 //backstretch
-    $('.bxslider').bxSlider();
+    $('.bxslider').bxSlider({
+        auto: true
+    });
 
 });
