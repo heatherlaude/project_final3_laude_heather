@@ -233,7 +233,7 @@ footer a, .contact_findus a, .phone_email a {
 }
 
 .top-margin {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .contact_findus a {
@@ -242,6 +242,11 @@ footer a, .contact_findus a, .phone_email a {
 
 .social {
     overflow: hidden;
+}
+
+.address h1, .hours h1, .phone_email h1, .social h1 {
+    text-align: center;
+    padding-top: 10px;
 }
 
 /* Social Icons ---------------- */
