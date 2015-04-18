@@ -219,16 +219,16 @@ footer p {
     margin: auto;
 }
 
-.contact_findus p {
+.contact_findus p, .address p, .hours p, .phone_email p {
     text-align: center;
 }
 
-footer a, .contact_findus a {
+footer a, .contact_findus a, .phone_email a {
     color: #f19b50;
     text-decoration: none;
 }
 
-.contact_findus a:hover, footer a:hover {
+.contact_findus a:hover, footer a:hover, .phone_email a:hover, {
     text-decoration: underline;
 }
 
@@ -240,13 +240,17 @@ footer a, .contact_findus a {
     margin-top: 10px;
 }
 
+.social {
+    overflow: hidden;
+}
+
 /* Social Icons ---------------- */
 
     .social_icons {
         background-color: #f19b50;
         width: 35%;
         padding-top: 10%;
-        margin: 20% 5% 0 5%;
+        margin: 5% 5% 0 5%;
         float: left;
         max-width: 50px;
     }
@@ -439,19 +443,29 @@ footer a, .contact_findus a {
         float: right;
         width: 30%;
         padding 0;
-        margin: 10px 10px 0 0;
+        margin: 70px 10px 0 0;
     }
 
     .hours {
         clear: both;
         float: left;
-        width: 50%;
+        width: 40%;
     }
 
-    .phone_email {
-        clear: both;
+    .phone_email, .social {
+        clear: right;
         float: right;
-        width: 50%;
+        width: 40%;
+    }
+
+    .social_icons {
+        padding-top: 10%;
+        margin: 10px 0 0 10px;
+        text-align: center;
+    }
+
+    #facebook {
+        margin-left: 35%;
     }
 }
 
