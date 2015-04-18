@@ -249,6 +249,10 @@ footer a, .contact_findus a, .phone_email a {
     padding-top: 10px;
 }
 
+.times {
+    display: block;
+}
+
 /* Social Icons ---------------- */
 
     .social_icons {
@@ -342,6 +346,13 @@ footer a, .contact_findus a, .phone_email a {
     }
 }
 
+/*Break Point 360px */
+
+@media (min-width: 360px) {
+    .times {
+    display: inline;
+    }
+}
 
 /*Break Point 683px */
 
