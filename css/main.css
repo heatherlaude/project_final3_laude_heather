@@ -422,6 +422,11 @@ footer a, .contact_findus a {
     .button_menu, .button_menu:hover {
         width: calc(100%/5);
     }
+}
+
+/*Break Point 770px */
+
+@media (min-width: 770px) {
 
     .map {
         float: left;
@@ -430,11 +435,23 @@ footer a, .contact_findus a {
         margin: 0 0 0 10px;
     }
 
-    .contact_findus {
+    .address {
         float: right;
         width: 30%;
         padding 0;
         margin: 10px 10px 0 0;
+    }
+
+    .hours {
+        clear: both;
+        float: left;
+        width: 50%;
+    }
+
+    .phone_email {
+        clear: both;
+        float: right;
+        width: 50%;
     }
 }
 
