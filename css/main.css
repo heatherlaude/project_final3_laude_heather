@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-/* Fonts */
+/* Fonts * ----------------*/
 
 @font-face {
     font-family: 'judson';
@@ -30,7 +30,9 @@
     src:url('../fonts/celtichand/celtichand.ttf') format('truetype'), url('../fonts/celtichand/celtichand.woff') format('woff');
 }
 
-/* End Fonts */
+/* End Fonts ----------------*/
+
+/* Body Content ----------------*/
 
 .container {
     margin: auto;
@@ -255,6 +257,8 @@ footer a, .contact_findus a, .phone_email a {
     display: block;
 }
 
+/* End Body Content ----------------*/
+
 /* Social Icons ---------------- */
 
     .social_icons, .social_icons_findus {
@@ -337,10 +341,10 @@ footer a, .contact_findus a, .phone_email a {
     height: 240px;
 }
 
-/* End Mix It Up Styles  ---------------- */
+/* End Mix It Up Styles ---------------- */
 
 
-/*Break Point 330px */
+/*Break Point 330px ---------------- */
 
 @media (min-width: 330px) {
     nav {
@@ -348,7 +352,7 @@ footer a, .contact_findus a, .phone_email a {
     }
 }
 
-/*Break Point 360px */
+/*Break Point 360px ---------------- */
 
 @media (min-width: 360px) {
     .times {
@@ -356,7 +360,7 @@ footer a, .contact_findus a, .phone_email a {
     }
 }
 
-/*Break Point 683px */
+/*Break Point 683px ---------------- */
 
 @media (min-width: 683px) {
 
@@ -385,7 +389,7 @@ footer a, .contact_findus a, .phone_email a {
     }
 }
 
-/*Break Point 750px */
+/*Break Point 750px ---------------- */
 
 @media (min-width: 750px) {
     .container, header {
@@ -448,7 +452,7 @@ footer a, .contact_findus a, .phone_email a {
 
 }
 
-/*Break Point 770px */
+/*Break Point 770px ---------------- */
 
 @media (min-width: 770px) {
 
@@ -489,7 +493,7 @@ footer a, .contact_findus a, .phone_email a {
     }
 }
 
-/*Break Point 842px */
+/*Break Point 842px ---------------- */
 
 @media (min-width: 842px) {
     .mix {
