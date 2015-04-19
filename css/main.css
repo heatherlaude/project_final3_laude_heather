@@ -474,13 +474,13 @@ footer a, .contact_findus a, .phone_email a {
         width: 40%;
     }
 
-    .social_icons {
+    .social_icons_findus {
         padding-top: 10%;
         margin: 10px 0 0 10px;
         text-align: center;
     }
 
-    #facebook {
+    #facebook_findus {
         margin-left: 35%;
     }
 }
