@@ -140,6 +140,10 @@ figure img {
     background-color: #BCA78E;
 }
 
+.promotions figure figcaption {
+    text-align: left;
+}
+
 .reservation {
     padding: 5%;
     background-color: #D0C1AE;
@@ -248,7 +252,7 @@ footer a, .contact_findus a, .phone_email a {
     overflow: hidden;
 }
 
-.address h1, .hours h1, .phone_email h1, .social h1 {
+.address h2, .hours h2, .phone_email h2, .social h2 {
     text-align: center;
     padding-top: 10px;
 }
@@ -305,7 +309,6 @@ footer a, .contact_findus a, .phone_email a {
 
 .mix {
     display: inline-block;
-    vertical-align: center;
     border: 3px solid #3f3E3E;
     margin: 10px;
     padding: 3%;
@@ -466,7 +469,6 @@ footer a, .contact_findus a, .phone_email a {
     .address {
         float: right;
         width: 30%;
-        padding 0;
         margin: 70px 10px 0 0;
     }
 
@@ -484,7 +486,7 @@ footer a, .contact_findus a, .phone_email a {
 
     .social_icons_findus {
         padding-top: 10%;
-        margin: 10px 0 0 10px;
+        margin: 10px 0 30px 10px;
         text-align: center;
     }
 
