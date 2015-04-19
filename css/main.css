@@ -413,7 +413,7 @@ footer a, .contact_findus a, .phone_email a {
         margin: auto;
         width: 75%;
     }
-    
+
     .slider_container {
         width: 100%;
         padding: 25px 0px 1px 0px;
@@ -432,7 +432,7 @@ footer a, .contact_findus a, .phone_email a {
         clear: both;
         max-width: 850px;
     }
-    
+
     footer p {
         display: inline;
         padding: 0 7px 0 7px;
@@ -441,9 +441,11 @@ footer a, .contact_findus a, .phone_email a {
     .options {
         margin-left: 70px;
     }
+
     .button_menu, .button_menu:hover {
         width: calc(100%/5);
     }
+
 }
 
 /*Break Point 770px */
