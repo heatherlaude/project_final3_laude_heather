@@ -209,7 +209,7 @@ footer p {
     width: 100%;
 }
 
-.social {
+.social, .social_findus {
     width: 30%;
     margin: auto;
 }
@@ -242,7 +242,7 @@ footer a, .contact_findus a, .phone_email a {
     margin-top: 10px;
 }
 
-.social {
+.social, .social_findus {
     overflow: hidden;
 }
 
@@ -257,7 +257,7 @@ footer a, .contact_findus a, .phone_email a {
 
 /* Social Icons ---------------- */
 
-    .social_icons {
+    .social_icons, .social_icons_findus {
         background-color: #f19b50;
         width: 35%;
         padding-top: 10%;
@@ -266,20 +266,20 @@ footer a, .contact_findus a, .phone_email a {
         max-width: 50px;
     }
 
-    .social_icons:hover {
+    .social_icons:hover, .social_icons_findus:hover {
         background-color: #42240B;
         -webkit-transition: background-color 0.75s;
         -moz-transition: background-color 0.75s;
         -o-transition: background-color 0.75s;
     }
 
-    #facebook, #twitter {
+    #facebook, #twitter, #facebook_findus {
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
     }
 
-    #facebook {
+    #facebook, #facebook_findus {
         background-image: url(../img/facebook.png);
     }
 
@@ -379,6 +379,10 @@ footer a, .contact_findus a, .phone_email a {
         float: left;
         margin: 0 5% 0 5%;
     }
+
+    nav {
+        font-size: 1.5em;
+    }
 }
 
 /*Break Point 750px */
@@ -387,10 +391,6 @@ footer a, .contact_findus a, .phone_email a {
     .container, header {
         overflow: hidden;
         max-width: 975px;
-    }
-
-    nav {
-        font-size: 1.1em;
     }
 
     aside {
